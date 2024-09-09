@@ -54,6 +54,6 @@ fun MyButton() {
         name = "World"
     },
         modifier = Modifier.padding(16.dp)) {
-        Text(text = "Bottom")
+        Text(text = "Button")
     }
 }
