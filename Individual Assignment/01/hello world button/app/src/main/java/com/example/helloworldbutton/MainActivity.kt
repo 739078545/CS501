@@ -44,10 +44,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Composable
 fun MyButton() {
-    // Initial value is null
     var name by remember { mutableStateOf<String?>(null) }
 
-    // If name is null, display nothing. if not, display name
     name?.let {
         Greeting(name = it)
     }
@@ -56,6 +54,6 @@ fun MyButton() {
         name = "World"
     },
         modifier = Modifier.padding(16.dp)) {
-        Text(text = "Click Me")
+        Text(text = "Bottom")
     }
 }
