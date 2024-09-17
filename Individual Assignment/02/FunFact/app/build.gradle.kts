@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.quoteofthedayapp"
+    namespace = "com.example.funfact"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.quoteofthedayapp"
+        applicationId = "com.example.funfact"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

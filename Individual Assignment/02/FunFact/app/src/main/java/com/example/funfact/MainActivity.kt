@@ -1,6 +1,6 @@
 // MainActivity.kt
 
-package com.example.quoteofthedayapp
+package com.example.funfact
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
